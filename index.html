@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>To-Do App</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Manrope:wght@300;400;500;600&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <div class="card">
+    <div class="header">
+      <h1>My Tasks</h1>
+      <p id="dateStr"></p>
+    </div>
+
+    <div class="input-row">
+      <div class="input-wrap">
+        <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
+          <circle cx="6" cy="6" r="5" stroke="currentColor" stroke-width="1.5"/>
+          <path d="M10 10L13 13" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+        </svg>
+        <input type="text" id="taskInput" placeholder="What needs to be done?" maxlength="100"/>
+      </div>
+      <button class="add-btn" onclick="addTask()">Add</button>
+    </div>
+
+    <div class="meta-row">
+      <span>Tasks</span>
+      <span class="count-badge" id="countBadge">0 left</span>
+    </div>
+
+    <ul id="taskList"></ul>
+
+    <div class="empty" id="emptyState">
+      <svg width="40" height="40" viewBox="0 0 40 40" fill="none">
+        <rect x="6" y="8" width="28" height="26" rx="4" stroke="#6b7280" stroke-width="1.5"/>
+        <path d="M13 16h14M13 22h10" stroke="#6b7280" stroke-width="1.5" stroke-linecap="round"/>
+      </svg>
+      <p>No tasks yet — add one above!</p>
+    </div>
+
+    <div class="footer">
+      <span class="footer-left" id="doneCount">0 completed</span>
+      <button class="clear-btn" onclick="clearDone()">Clear completed</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
