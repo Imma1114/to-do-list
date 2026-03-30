@@ -23,6 +23,15 @@ A simple and clean To-Do app built with pure HTML, CSS, and JavaScript — no fr
 
 ## Screenshots
 
+### Dashboard
+![Dashboard](./screenshot-dashboard.png)
+
+### Adding a task
+![Add Ticket](./screenshot-addlist.png)
+
+### Checked List
+![Checked List](./screenshot-checkedlist.png)
+
 
 ## Author
 
