@@ -19,7 +19,7 @@ A simple and clean To-Do app built with pure HTML, CSS, and JavaScript — no fr
 
 ## Live Demo
 
-[View Live →][(https://imma1114.github.io/to-do-list/)]
+[View Live →](https://imma1114.github.io/to-do-list/)
 
 ## Screenshots
 
